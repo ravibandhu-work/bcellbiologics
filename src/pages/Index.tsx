@@ -1,13 +1,41 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from 'react';
+import { Lenis } from '@lenis/react';
+import HeroSection from '../components/HeroSection';
+import StatsSection from '../components/StatsSection';
+import FeaturesSection from '../components/FeaturesSection';
+import HowItWorksSection from '../components/HowItWorksSection';
+import ComparisonSection from '../components/ComparisonSection';
+import TestimonialSection from '../components/TestimonialSection';
+import PricingSection from '../components/PricingSection';
+import WhoItsForSection from '../components/WhoItsForSection';
+import VideoSection from '../components/VideoSection';
+import CTASection from '../components/CTASection';
+import FAQSection from '../components/FAQSection';
+import ContactSection from '../components/ContactSection';
+import Navigation from '../components/Navigation';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <Lenis root>
+      <div className="min-h-screen bg-white">
+        <Navigation />
+        <main>
+          <HeroSection />
+          <StatsSection />
+          <FeaturesSection />
+          <HowItWorksSection />
+          <ComparisonSection />
+          <TestimonialSection />
+          <PricingSection />
+          <WhoItsForSection />
+          <VideoSection />
+          <CTASection />
+          <FAQSection />
+          <ContactSection />
+        </main>
       </div>
-    </div>
+    </Lenis>
   );
 };
 
