@@ -5,17 +5,17 @@ const RapidTestSection = () => {
     {
       title: "Rapid COVID-19 Test Kits",
       description: "Detect COVID-19 quickly with our reliable and easy-to-use rapid test kits.",
-      image: "/lovable-uploads/1ce48187-a24d-452a-bfd3-3273fb3c397d.png"
+      image: "/lovable-uploads/4436d03f-1a6c-49d0-a657-09137c139da9.png"
     },
     {
       title: "Malaria Detection Solutions",
       description: "Fast and accurate malaria detection using advanced diagnostic technology.",
-      image: "/lovable-uploads/6ac50e1a-1ce0-4e43-8694-8643958ea479.png"
+      image: "/lovable-uploads/68fa8b82-7689-4f6a-8f49-942e9421b755.png"
     },
     {
       title: "HIV Diagnostic Tests",
       description: "Efficiently identify HIV infections with our precise diagnostic tests.",
-      image: "/lovable-uploads/bdeeb627-8b0a-4ff5-8563-3745268a94ca.png"
+      image: "/lovable-uploads/076941ad-b975-4638-84e7-da5f16f49cad.png"
     },
     {
       title: "Tuberculosis Rapid Testing",
