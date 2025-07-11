@@ -6,17 +6,20 @@ const DiseasePanelsSection = () => {
     {
       icon: TestTube,
       title: "Comprehensive Disease Panels",
-      description: "Rapidly detect multiple diseases with our integrated testing panels."
+      description: "Rapidly detect multiple diseases with our integrated testing panels.",
+      image: "/api/placeholder/400/300" // Replace with your first medical image
     },
     {
       icon: Activity,
       title: "Point-of-Care Testing Solutions",
-      description: "Facilitate immediate diagnosis with our user-friendly testing kits."
+      description: "Facilitate immediate diagnosis with our user-friendly testing kits.",
+      image: "/api/placeholder/400/300" // Replace with your second medical image
     },
     {
       icon: Microscope,
       title: "Innovative Biomarker Detection",
-      description: "Utilize cutting-edge technology for accurate biomarker identification."
+      description: "Utilize cutting-edge technology for accurate biomarker identification.",
+      image: "/api/placeholder/400/300" // Replace with your third medical image
     }
   ];
 
@@ -34,16 +37,25 @@ const DiseasePanelsSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {panels.map((panel, index) => (
-            <div key={index} className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 hover-lift">
-              <div className="p-4 bg-primary/10 rounded-xl w-16 h-16 mx-auto mb-6 flex items-center justify-center">
-                <panel.icon className="w-8 h-8 text-primary" />
+            <div key={index} className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 hover-lift">
+              <div className="aspect-w-16 aspect-h-10 bg-gray-100">
+                <img 
+                  src={panel.image} 
+                  alt={panel.title}
+                  className="w-full h-48 object-cover"
+                />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4 text-center font-display">
-                {panel.title}
-              </h3>
-              <p className="text-gray-600 text-center leading-relaxed">
-                {panel.description}
-              </p>
+              <div className="p-8">
+                <div className="p-3 bg-primary/10 rounded-xl w-12 h-12 mb-6 flex items-center justify-center">
+                  <panel.icon className="w-6 h-6 text-primary" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-4 font-display">
+                  {panel.title}
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  {panel.description}
+                </p>
+              </div>
             </div>
           ))}
         </div>
