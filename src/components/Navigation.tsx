@@ -18,7 +18,6 @@ const Navigation = () => {
     { label: 'Features', href: '#features' },
     { label: 'How It Works', href: '#how-it-works' },
     { label: 'Pricing', href: '#pricing' },
-    { label: 'FAQ', href: '#faq' },
     { label: 'Contact', href: '#contact' },
   ];
 
@@ -45,9 +44,9 @@ const Navigation = () => {
                   {item.label}
                 </a>
               ))}
-              <button className="bg-primary text-white px-6 py-2 rounded-full font-medium hover:bg-primary/90 transition-colors">
-                Order Now
-              </button>
+              <a href="#contact" className="bg-primary text-white px-6 py-2 rounded-full font-medium hover:bg-primary/90 transition-colors">
+                Contact
+              </a>
             </div>
           </div>
           
@@ -76,9 +75,9 @@ const Navigation = () => {
                 {item.label}
               </a>
             ))}
-            <button className="w-full bg-primary text-white px-6 py-2 rounded-full font-medium hover:bg-primary/90 transition-colors mt-4">
-              Order Now
-            </button>
+            <a href="#contact" className="w-full bg-primary text-white px-6 py-2 rounded-full font-medium hover:bg-primary/90 transition-colors mt-4 block text-center">
+              Contact
+            </a>
           </div>
         </div>
       )}

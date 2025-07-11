@@ -15,180 +15,38 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Contact Information */}
-          <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-8 font-display">
-              Multiple Ways to Connect
-            </h3>
-            
-            <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-primary/10 rounded-xl">
-                  <MessageCircle className="w-6 h-6 text-primary" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">WhatsApp Support</h4>
-                  <p className="text-gray-600 mb-2">Get instant help from our health advisors</p>
-                  <a href="https://wa.me/919876543210" className="text-primary font-semibold hover:underline">
-                    +91 98765 43210
-                  </a>
-                </div>
+        <div className="max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="p-4 bg-teal-100 rounded-xl w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                <Phone className="w-8 h-8 text-teal-600" />
               </div>
-
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-teal-100 rounded-xl">
-                  <Phone className="w-6 h-6 text-teal-600" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Phone Support</h4>
-                  <p className="text-gray-600 mb-2">Speak directly with our team</p>
-                  <a href="tel:+918001234567" className="text-teal-600 font-semibold hover:underline">
-                    1800-123-4567 (Toll Free)
-                  </a>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-blue-100 rounded-xl">
-                  <Mail className="w-6 h-6 text-blue-600" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Email Support</h4>
-                  <p className="text-gray-600 mb-2">Detailed queries and support</p>
-                  <a href="mailto:support@bcellbiologics.com" className="text-blue-600 font-semibold hover:underline">
-                    support@bcellbiologics.com
-                  </a>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-green-100 rounded-xl">
-                  <MapPin className="w-6 h-6 text-green-600" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Office Address</h4>
-                  <p className="text-gray-600">
-                    B-Cell Biologics Pvt. Ltd.<br />
-                    123 Health Innovation Park<br />
-                    Bangalore, Karnataka 560001
-                  </p>
-                </div>
-              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Phone</h3>
+              <a href="tel:+918001234567" className="text-teal-600 font-semibold hover:underline">
+                1800-123-4567 (Toll Free)
+              </a>
             </div>
 
-            {/* Support Hours */}
-            <div className="mt-8 bg-gradient-to-r from-primary/5 to-teal-50 rounded-2xl p-6">
-              <div className="flex items-center gap-3 mb-4">
-                <Clock className="w-6 h-6 text-primary" />
-                <h4 className="font-semibold text-gray-900">Support Hours</h4>
+            <div className="text-center">
+              <div className="p-4 bg-blue-100 rounded-xl w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                <Mail className="w-8 h-8 text-blue-600" />
               </div>
-              <div className="space-y-2 text-gray-600">
-                <div className="flex justify-between">
-                  <span>WhatsApp Support:</span>
-                  <span className="font-medium">24/7 Available</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Phone Support:</span>
-                  <span className="font-medium">Mon-Sat, 9 AM - 7 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Email Response:</span>
-                  <span className="font-medium">Within 2-4 hours</span>
-                </div>
-              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
+              <a href="mailto:support@bcellbiologics.com" className="text-blue-600 font-semibold hover:underline">
+                support@bcellbiologics.com
+              </a>
             </div>
-          </div>
 
-          {/* Quick Contact Form */}
-          <div className="bg-gray-50 rounded-2xl p-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6 font-display">
-              Quick Contact Form
-            </h3>
-            
-            <form className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    First Name
-                  </label>
-                  <input 
-                    type="text" 
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary"
-                    placeholder="Enter your first name"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Last Name
-                  </label>
-                  <input 
-                    type="text" 
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary"
-                    placeholder="Enter your last name"
-                  />
-                </div>
+            <div className="text-center">
+              <div className="p-4 bg-green-100 rounded-xl w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                <MapPin className="w-8 h-8 text-green-600" />
               </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Email Address
-                </label>
-                <input 
-                  type="email" 
-                  className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary"
-                  placeholder="Enter your email"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Phone Number
-                </label>
-                <input 
-                  type="tel" 
-                  className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary"
-                  placeholder="Enter your phone number"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  How can we help you?
-                </label>
-                <select className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary">
-                  <option value="">Select a topic</option>
-                  <option value="product-info">Product Information</option>
-                  <option value="order-support">Order Support</option>
-                  <option value="result-interpretation">Result Interpretation</option>
-                  <option value="technical-support">Technical Support</option>
-                  <option value="healthcare-guidance">Healthcare Guidance</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Message
-                </label>
-                <textarea 
-                  rows={4}
-                  className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary resize-none"
-                  placeholder="Tell us more about your question or concern..."
-                ></textarea>
-              </div>
-
-              <button 
-                type="submit"
-                className="w-full bg-primary text-white py-4 rounded-xl font-semibold hover:bg-primary/90 transition-colors"
-              >
-                Send Message
-              </button>
-            </form>
-
-            <div className="mt-6 flex items-center gap-2 text-sm text-gray-500">
-              <Shield className="w-4 h-4" />
-              <span>Your information is secure and will never be shared with third parties.</span>
+              <h3 className="font-semibold text-gray-900 mb-2">Address</h3>
+              <p className="text-gray-600">
+                B-Cell Biologics Pvt. Ltd.<br />
+                123 Health Innovation Park<br />
+                Bangalore, Karnataka 560001
+              </p>
             </div>
           </div>
         </div>
@@ -220,7 +78,6 @@ const ContactSection = () => {
                 <li><a href="#" className="hover:text-primary transition-colors">Privacy Policy</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors">Terms of Service</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors">Disclaimer</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Return Policy</a></li>
               </ul>
             </div>
           </div>

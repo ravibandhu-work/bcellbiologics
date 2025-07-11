@@ -16,8 +16,7 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-display mb-6 leading-tight">
-            <span className="text-gradient block">Empowering</span>
-            <span className="text-gray-800 block">Women's Health</span>
+            <span className="text-gradient block">Empowering Women's Health</span>
             <span className="text-sm md:text-lg font-normal text-gray-600 block mt-4">
               Revolutionary At-Home HPV & Cervical Cancer Screening
             </span>
@@ -45,11 +44,8 @@ const HeroSection = () => {
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-primary text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-primary/90 transition-all hover-lift">
-              Order Your Kit Today
-            </button>
-            <button className="flex items-center gap-2 text-gray-700 font-medium hover:text-primary transition-colors">
+          <div className="flex justify-center items-center">
+            <button className="flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-primary/90 transition-all hover-lift">
               <Play className="w-5 h-5" />
               Watch How It Works
             </button>

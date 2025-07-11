@@ -5,12 +5,10 @@ import StatsSection from '../components/StatsSection';
 import FeaturesSection from '../components/FeaturesSection';
 import HowItWorksSection from '../components/HowItWorksSection';
 import ComparisonSection from '../components/ComparisonSection';
-import TestimonialSection from '../components/TestimonialSection';
 import PricingSection from '../components/PricingSection';
-import WhoItsForSection from '../components/WhoItsForSection';
 import VideoSection from '../components/VideoSection';
-import CTASection from '../components/CTASection';
-import FAQSection from '../components/FAQSection';
+import DiseasePanelsSection from '../components/DiseasePanelsSection';
+import RapidTestSection from '../components/RapidTestSection';
 import ContactSection from '../components/ContactSection';
 import Navigation from '../components/Navigation';
 
@@ -23,13 +21,11 @@ const Index = () => {
         <StatsSection />
         <FeaturesSection />
         <HowItWorksSection />
+        <DiseasePanelsSection />
+        <RapidTestSection />
         <ComparisonSection />
-        <TestimonialSection />
         <PricingSection />
-        <WhoItsForSection />
         <VideoSection />
-        <CTASection />
-        <FAQSection />
         <ContactSection />
       </main>
     </div>
