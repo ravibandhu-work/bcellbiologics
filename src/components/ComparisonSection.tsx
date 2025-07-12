@@ -5,11 +5,6 @@ import { Check, X } from 'lucide-react';
 const ComparisonSection = () => {
   const comparisons = [
     {
-      feature: "Requires Clinic Visit",
-      traditional: false,
-      bcell: true
-    },
-    {
       feature: "Speculum Examination",
       traditional: false,
       bcell: true
@@ -87,15 +82,6 @@ const ComparisonSection = () => {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4 text-gray-900 font-medium">Requires Clinic Visit</td>
-                  <td className="px-6 py-4 text-center">
-                    <Check className="w-6 h-6 text-red-500 mx-auto" />
-                  </td>
-                  <td className="px-6 py-4 text-center">
-                    <X className="w-6 h-6 text-green-500 mx-auto" />
-                  </td>
-                </tr>
-                <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 text-gray-900 font-medium">Speculum Examination</td>
                   <td className="px-6 py-4 text-center">
                     <Check className="w-6 h-6 text-red-500 mx-auto" />
@@ -143,13 +129,13 @@ const ComparisonSection = () => {
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 text-gray-900 font-medium">Cost per Test</td>
                   <td className="px-6 py-4 text-center text-red-600 font-medium">
-                    ₹2,000-5,000
+                    5x More expensive
                   </td>
                   <td className="px-6 py-4 text-center text-green-600 font-medium">
-                    ₹899
+                    More affordable
                   </td>
                 </tr>
-                <tr className="hover:bg-gray-50">
+                {/* <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 text-gray-900 font-medium">Accessibility</td>
                   <td className="px-6 py-4 text-center text-red-600 font-medium">
                     Urban Only
@@ -157,13 +143,13 @@ const ComparisonSection = () => {
                   <td className="px-6 py-4 text-center text-green-600 font-medium">
                     Nationwide
                   </td>
-                </tr>
+                </tr> */}
               </tbody>
             </table>
           </div>
         </div>
 
-        <div className="mt-12 text-center">
+        <div className="mt-12 text-center mb-16">
           <div className="inline-block bg-gradient-to-r from-green-50 to-teal-50 rounded-2xl p-6">
             <h3 className="text-xl font-bold text-gray-900 mb-2 font-display">
               The Clear Choice for Modern Women

@@ -7,12 +7,12 @@ const FeaturesSection = () => {
     {
       icon: <TestTube className="w-8 h-8 text-primary" />,
       title: "Self-Sampling Simplicity",
-      description: "Collect your sample at home with our easy-to-use, sterile collection kit. No clinical visit required."
+      description: "Collect your sample at your convenience with our easy-to-use, sterile collection kit."
     },
     {
       icon: <Clock className="w-8 h-8 text-teal-600" />,
-      title: "Rapid 15-Minute Results",
-      description: "Get your results in just 15 minutes at home. No waiting days or weeks for lab reports."
+      title: "Rapid 30-Minute Results",
+      description: "Get your results in just 30 minutes. No waiting days or weeks for lab reports."
     },
     {
       icon: <Search className="w-8 h-8 text-blue-600" />,
@@ -32,7 +32,7 @@ const FeaturesSection = () => {
     {
       icon: <Heart className="w-8 h-8 text-pink-600" />,
       title: "Privacy & Stigma-Free",
-      description: "Complete privacy in your own home. No embarrassment, no judgment, just empowered healthcare."
+      description: "Complete privacy. No embarrassment, no judgment, just empowered healthcare."
     }
   ];
 
@@ -41,10 +41,11 @@ const FeaturesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-display">
-            Why Choose <span className="text-gradient">B-Cell's</span> Test Kit?
+            <span className="block">Why Choose</span>
+            <span className="text-gradient">B-Cell's</span> Cervical Cancer Screening Kit?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Designed for modern women who value convenience, accuracy, and privacy in their healthcare journey
+            Designed for every women who value convenience, accuracy, and privacy in their healthcare journey
           </p>
         </div>
 
@@ -69,7 +70,7 @@ const FeaturesSection = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
+        <div className="mt-16 text-center mb-16">
           <div className="inline-block bg-gradient-to-r from-primary/10 to-teal-50 rounded-2xl p-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-4 font-display">
               Trusted by Healthcare Professionals

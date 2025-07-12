@@ -32,7 +32,7 @@ const VideoSection = () => {
                   Complete Product Demo
                 </h3>
                 <p className="text-gray-600">
-                  5-minute walkthrough of the entire testing process
+                  2-minute walkthrough of the entire testing process
                 </p>
               </div>
             </div>

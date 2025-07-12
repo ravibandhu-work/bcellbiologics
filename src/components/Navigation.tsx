@@ -17,20 +17,19 @@ const Navigation = () => {
   const navItems = [
     { label: 'Features', href: '#features' },
     { label: 'How It Works', href: '#how-it-works' },
-    { label: 'Pricing', href: '#pricing' },
-    { label: 'Contact', href: '#contact' },
+    // { label: 'Pricing', href: '#pricing' },
+    { label: 'FAQ', href: '#faq' },
+    // { label: 'Contact', href: '#contact' },
   ];
 
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${
       scrolled ? 'bg-white/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
     }`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-2 mb-2">
+        <div className="flex justify-between items-center h-18">
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold text-gradient font-display">
-              B-Cell Biologics
-            </h1>
+            <img src="/public/logo.png" alt="B-Cell Biologics" className="h-14" />
           </div>
           
           <div className="hidden md:block">

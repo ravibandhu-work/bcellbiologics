@@ -22,18 +22,18 @@ const FAQSection = () => {
       question: "What happens if my test shows positive results?",
       answer: "A positive result doesn't mean you have cancer - it indicates the presence of HPV or cancer progression markers that require follow-up. We provide clear guidance on next steps, including recommendations to consult with a gynecologist for confirmatory testing and appropriate treatment if needed."
     },
-    {
-      question: "Is my privacy protected when ordering and using the kit?",
-      answer: "Absolutely. We use discreet packaging with no medical labeling. Your personal health information is completely confidential and never shared with third parties. The entire process from ordering to testing to results is designed with your privacy in mind."
-    },
+    // {
+    //   question: "Is my privacy protected when ordering and using the kit?",
+    //   answer: "Absolutely. We use discreet packaging with no medical labeling. Your personal health information is completely confidential and never shared with third parties. The entire process from ordering to testing to results is designed with your privacy in mind."
+    // },
     {
       question: "How often should I use the B-Cell test kit?",
       answer: "For women aged 21-30, we recommend testing every 3 years if results are normal. For women over 30, testing every 3-5 years is typically sufficient. However, consult with your healthcare provider for personalized recommendations based on your health history and risk factors."
     },
-    {
-      question: "What if I need help interpreting my results?",
-      answer: "Every kit comes with a detailed result interpretation guide. Additionally, our trained health advisors are available via WhatsApp and phone to help you understand your results and guide you on appropriate next steps. We also provide telehealth consultation options."
-    },
+    // {
+    //   question: "What if I need help interpreting my results?",
+    //   answer: "Every kit comes with a detailed result interpretation guide. Additionally, our trained health advisors are available via WhatsApp and phone to help you understand your results and guide you on appropriate next steps. We also provide telehealth consultation options."
+    // },
     {
       question: "Is the test kit approved and safe to use?",
       answer: "Yes, our test kit uses FDA-approved technology and has undergone rigorous clinical validation. All components are sterile, safe, and manufactured under strict quality control standards. The test has been developed by experienced scientists and validated through multiple clinical studies."
@@ -83,7 +83,7 @@ const FAQSection = () => {
           ))}
         </div>
 
-        <div className="mt-12 text-center">
+        {/* <div className="mt-12 text-center">
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <h3 className="text-xl font-bold text-gray-900 mb-4 font-display">
               Still Have Questions?
@@ -100,7 +100,7 @@ const FAQSection = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
