@@ -75,9 +75,9 @@ const ContactSection = () => {
             <div>
               <h4 className="font-semibold text-gray-900 mb-4">Legal</h4>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li><a href="#" className="hover:text-primary transition-colors">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Terms of Service</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Disclaimer</a></li>
+                <li><a href="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</a></li>
+                <li><a href="/terms-of-service" className="hover:text-primary transition-colors">Terms of Service</a></li>
+                <li><a href="/disclaimer" className="hover:text-primary transition-colors">Disclaimer</a></li>
               </ul>
             </div>
           </div>

@@ -53,11 +53,11 @@ const WhoItsForSection = () => {
                   {group.icon}
                 </div>
                 <div className="flex-1">
-                  <div className="flex items-center gap-3 mb-3">
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-3 mb-3">
                     <h3 className="text-xl font-semibold text-gray-900 font-display">
                       {group.title}
                     </h3>
-                    <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium">
+                    <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium self-start sm:self-auto">
                       {group.highlight}
                     </span>
                   </div>
