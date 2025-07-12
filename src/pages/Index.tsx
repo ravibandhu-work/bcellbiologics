@@ -11,6 +11,7 @@ import DiseasePanelsSection from '../components/DiseasePanelsSection';
 import RapidTestSection from '../components/RapidTestSection';
 import ContactSection from '../components/ContactSection';
 import Navigation from '../components/Navigation';
+import WhoItsForSection from '@/components/WhoItsForSection';
 
 const Index = () => {
   return (
@@ -24,6 +25,7 @@ const Index = () => {
         <DiseasePanelsSection />
         <RapidTestSection />
         <ComparisonSection />
+        <WhoItsForSection />
         {/* <PricingSection /> */}
         <VideoSection />
         <ContactSection />
