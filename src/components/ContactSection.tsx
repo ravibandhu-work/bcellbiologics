@@ -23,7 +23,7 @@ const ContactSection = () => {
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Phone</h3>
               <a href="tel:+918001234567" className="text-teal-600 font-semibold hover:underline">
-                1800-123-4567 (Toll Free)
+                Speak directly with our team 
               </a>
             </div>
 
@@ -32,8 +32,8 @@ const ContactSection = () => {
                 <Mail className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
-              <a href="mailto:support@bcellbiologics.com" className="text-blue-600 font-semibold hover:underline">
-                support@bcellbiologics.com
+              <a href="mailto:info@bcellbiologics.com" className="text-blue-600 font-semibold hover:underline">
+              info@bcellbiologics.com
               </a>
             </div>
 
@@ -43,9 +43,8 @@ const ContactSection = () => {
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Address</h3>
               <p className="text-gray-600">
-                B-Cell Biologics Pvt. Ltd.<br />
-                123 Health Innovation Park<br />
-                Bangalore, Karnataka 560001
+                258/A, Hosur Rd, Bommasandra Industrial Area<br />
+                Bangalore, Karnataka 560099
               </p>
             </div>
           </div>
@@ -58,7 +57,7 @@ const ContactSection = () => {
             <div>
               <h4 className="font-bold text-gray-900 mb-4 font-display">B-Cell Biologics</h4>
               <p className="text-gray-600 text-sm">
-                Revolutionizing women's health through innovative at-home diagnostic solutions. 
+                Revolutionizing women's health through innovative diagnostic solutions. 
                 Making cervical cancer screening accessible, affordable, and comfortable for every woman.
               </p>
             </div>
@@ -84,7 +83,7 @@ const ContactSection = () => {
           </div>
           
           <div className="mt-8 pt-8 border-t border-gray-200 text-center text-sm text-gray-500">
-            <p>&copy; 20XX B-Cell Biologics Pvt. Ltd. All rights reserved.</p>
+            <p>&copy; 2024 B-Cell Biologics Pvt. Ltd. All rights reserved.</p>
             {/* <p className="mt-2">Registered in India | CIN: U85110KA2024PTCXXXXXX</p> */}
           </div>
         </div>
