@@ -4,15 +4,15 @@ import { Mail, Phone, MessageCircle, MapPin, Clock, Shield } from 'lucide-react'
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="contact" className="py-20 pb-4 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-display">
             Get in <span className="text-gradient">Touch</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          {/* <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We're here to support you throughout your health journey. Reach out for questions, support, or guidance.
-          </p>
+          </p> */}
         </div>
 
         <div className="max-w-4xl mx-auto">
@@ -51,6 +51,7 @@ const ContactSection = () => {
           </div>
         </div>
 
+
         {/* Footer */}
         <div className="mt-20 pt-12 border-t border-gray-200">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -83,8 +84,8 @@ const ContactSection = () => {
           </div>
           
           <div className="mt-8 pt-8 border-t border-gray-200 text-center text-sm text-gray-500">
-            <p>&copy; 2024 B-Cell Biologics Pvt. Ltd. All rights reserved.</p>
-            <p className="mt-2">Registered in India | CIN: U85110KA2024PTC123456</p>
+            <p>&copy; 20XX B-Cell Biologics Pvt. Ltd. All rights reserved.</p>
+            {/* <p className="mt-2">Registered in India | CIN: U85110KA2024PTCXXXXXX</p> */}
           </div>
         </div>
       </div>

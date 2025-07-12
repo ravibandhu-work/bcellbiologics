@@ -71,7 +71,7 @@ const WhoItsForSection = () => {
         </div>
 
         {/* Additional considerations */}
-        <div className="bg-white rounded-2xl p-8 shadow-lg">
+        <div className="bg-white rounded-2xl p-8 shadow-lg mb-16">
           <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center font-display">
             Important Considerations
           </h3>

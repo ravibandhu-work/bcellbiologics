@@ -6,9 +6,9 @@ const HowItWorksSection = () => {
   const steps = [
     {
       icon: <Package className="w-10 h-10 text-primary" />,
-      title: "Order Your Kit",
-      description: "Receive your sterile self-sampling kit delivered discreetly to your home within 24-48 hours.",
-      detail: "Each kit contains everything needed for safe, hygienic sample collection"
+      title: "Access Self-Sampling Kits",
+      description: "Equip your facility with clinically validated HPV self-sampling kits, designed for easy integration into screening programs and remote care pathways.",
+      detail: "Each kit includes everything needed for hygienic and dignified sample collection."
     },
     {
       icon: <TestTube2 className="w-10 h-10 text-teal-600" />,
@@ -18,14 +18,14 @@ const HowItWorksSection = () => {
     },
     {
       icon: <Timer className="w-10 h-10 text-blue-600" />,
-      title: "Insert & Wait",
-      description: "Place the sample into the test cassette and wait just 15 minutes for your results to appear.",
+      title: "Read the Cassette",
+      description: "Place the sample into the test cassette and wait just 15-20 minutes for your results to appear.",
       detail: "Color-coded bands indicate HPV presence and cancer progression markers"
     },
     {
       icon: <FileText className="w-10 h-10 text-green-600" />,
       title: "Interpret Results",
-      description: "Read your results using our clear interpretation guide. 1 band = HPV detected, 4 bands = cancer progression markers present.",
+      description: "Read your results using our clear interpretation guide.",
       detail: "Follow-up guidance provided for both positive and negative results"
     }
   ];
@@ -38,7 +38,7 @@ const HowItWorksSection = () => {
             How the <span className="text-gradient">B-Cell Kit</span> Works
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Four simple steps to take control of your cervical health from home
+            Four simple steps to take control of your cervical health
           </p>
         </div>
 
@@ -74,15 +74,13 @@ const HowItWorksSection = () => {
         </div>
 
         {/* Science behind the test */}
-        <div className="bg-white rounded-2xl p-8 shadow-lg">
+        <div className="bg-white rounded-2xl p-8 shadow-lg mb-16">
           <div className="max-w-4xl mx-auto text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-4 font-display">
               The Science Behind Our Technology
             </h3>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Our proprietary assay targets <strong>E6/E7 oncogenic proteins</strong> — critical indicators of HPV-driven malignancy. 
-              Unlike traditional HPV tests that only detect viral DNA, our dual biomarker approach identifies both the presence 
-              of high-risk HPV and active cancer progression markers, providing more comprehensive screening results.
+            Our test doesn’t just see if you have high-risk HPV—it also checks for extra warning signs that the virus might be turning into cancer. That means it’s smarter than regular HPV tests, giving you clearer answers about your risk.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <div className="bg-primary/10 px-4 py-2 rounded-full">
@@ -90,9 +88,6 @@ const HowItWorksSection = () => {
               </div>
               <div className="bg-teal-100 px-4 py-2 rounded-full">
                 <span className="text-sm font-medium text-teal-700">E7 Oncoprotein Detection</span>
-              </div>
-              <div className="bg-blue-100 px-4 py-2 rounded-full">
-                <span className="text-sm font-medium text-blue-700">High-Risk HPV Identification</span>
               </div>
             </div>
           </div>
