@@ -6,14 +6,14 @@ const WhoItsForSection = () => {
   const targetGroups = [
     {
       icon: <Users className="w-8 h-8 text-primary" />,
-      title: "Women Over 21",
+      title: "Women Over 15",
       description: "Especially those who have been sexually active and need regular cervical screening as recommended by healthcare guidelines.",
-      highlight: "Age 21-65 years"
+      highlight: "Age 15-65 years"
     },
     {
       icon: <Heart className="w-8 h-8 text-pink-600" />,
       title: "Privacy-Conscious Women",
-      description: "Those who prefer the comfort and dignity of home testing over traditional clinical examinations.",
+      description: "For people who value privacy, comfort, and dignity—our self‑sampling kit lets you collect your own sample gently and discreetly, without the stress of a traditional clinic visit.",
       highlight: "Complete privacy"
     },
     {
@@ -38,7 +38,7 @@ const WhoItsForSection = () => {
             Who Can <span className="text-gradient">Benefit</span> from B-Cell?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our test kit is designed for modern Indian women who value their health, privacy, and convenience
+            Our test kit is designed for every Indian women who value their health, privacy, and convenience
           </p>
         </div>
 
