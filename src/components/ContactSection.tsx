@@ -22,7 +22,7 @@ const ContactSection = () => {
                 <Phone className="w-8 h-8 text-teal-600" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Phone</h3>
-              <a href="tel:+918001234567" className="text-teal-600 font-semibold hover:underline">
+              <a href="mailto:info@bcellbiologics.com" className="text-teal-600 font-semibold hover:underline">
                 Speak directly with our team 
               </a>
             </div>

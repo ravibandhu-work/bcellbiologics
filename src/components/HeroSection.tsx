@@ -15,11 +15,11 @@ const HeroSection = () => {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 mt-16 md:mt-0 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto mt-16">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-display mb-6 leading-tight">
-            <span className="text-gradient py-2 block">Empowering</span>
-            <span className="text-gray-800 py-2 block">Women's Health</span>
+          <h1 className="text-4xl md:text-6xl lg:text-5xl font-bold font-display mb-6 leading-tight">
+            <span className="text-gradient py-2 block">Cervical Cancer Screening Reinvented</span>
+            <span className="text-gray-800 py-2 block">Self-Sampling | Rapid Results</span>
             <span className="text-sm md:text-lg font-normal text-gray-600 block mt-4">
-              Revolutionary At-Home Rapid HPV & Cervical Cancer Screening
+            No speculum. No discomfort. Just a gentle, self-collected sample — empowering women to screen faster, earlier
             </span>
           </h1>
           
@@ -36,7 +36,7 @@ const HeroSection = () => {
             </div> */}
             <div className="flex items-center gap-2 bg-white/80 px-4 py-2 rounded-full shadow-sm">
               <Clock className="w-5 h-5 text-primary" />
-              <span className="text-sm font-medium">30 Min Results</span>
+              <span className="text-sm font-medium">15 Min Results</span>
             </div>
             <div className="flex items-center gap-2 bg-white/80 px-4 py-2 rounded-full shadow-sm">
               <Shield className="w-5 h-5 text-primary" />
@@ -46,17 +46,19 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex justify-center items-center">
-            <button className="flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-primary/90 transition-all hover-lift">
-              <Play className="w-5 h-5" />
-              Watch How It Works
-            </button>
+            <a href="#video">
+              <button className="flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-primary/90 transition-all hover-lift">
+                <Play className="w-5 h-5" />
+                Watch How It Works
+              </button>
+            </a>
           </div>
 
           {/* Trust indicators */}
           <div className="mt-12 flex flex-wrap justify-center items-center gap-8 text-sm text-gray-500">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-              <span>Clinically Validated</span>
+              <span>Ongoing Clinical Validation</span>
             </div>
             {/* <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-green-500 rounded-full"></div>
@@ -64,7 +66,7 @@ const HeroSection = () => {
             </div> */}
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-              <span>Trusted by 10,000+ Women</span>
+              <span>Trusted by Clinical Professionals</span>
             </div>
           </div>
         </div>

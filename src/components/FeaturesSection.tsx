@@ -11,13 +11,13 @@ const FeaturesSection = () => {
     },
     {
       icon: <Clock className="w-8 h-8 text-teal-600" />,
-      title: "Rapid 30-Minute Results",
-      description: "Get your results in just 30 minutes. No waiting days or weeks for lab reports."
+      title: "Rapid 15-Minute Results",
+      description: "Get your results in just 15 minutes. No waiting days or weeks for lab reports."
     },
     {
       icon: <Search className="w-8 h-8 text-blue-600" />,
       title: "Dual Biomarker Detection",
-      description: "Advanced E6/E7 oncoprotein detection identifies both HPV presence and cancer progression indicators."
+      description: "Advanced cancer marker detection identifies both HPV presence and cancer progression indicators."
     },
     {
       icon: <Shield className="w-8 h-8 text-green-600" />,
@@ -76,8 +76,11 @@ const FeaturesSection = () => {
               Trusted by Healthcare Professionals
             </h3>
             <p className="text-gray-600 max-w-2xl">
-              Our patented E6/E7 oncoprotein detection technology has been validated through 
-              rigorous clinical trials and is recommended by gynecologists across India.
+            Our patented cervical cancer detection technology, trusted by gynecologists across India and
+currently under clinical validation, identifies all clinically relevant HPV types. This includes high-risk
+strains (HPV 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66, 68), probable high-risk types (HPV 53,
+67, 70, 73, 82), and low-risk types (HPV 6, 11, 40, 42, 43, 44, 54, 61, 72, 81, 89). With broad and
+precise coverage, our test enables early, accurate, and actionable screening.
             </p>
           </div>
         </div>
