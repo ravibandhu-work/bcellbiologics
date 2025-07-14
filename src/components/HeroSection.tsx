@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Play, Shield, Clock, Home } from 'lucide-react';
-import heroImage from '../assets/hero-woman-health.jpg';
+import heroImage from '/lovable-uploads/483e945c-6f31-4f78-9aa9-fcd257b6e8c1.png';
 
 const HeroSection = () => {
   return (
