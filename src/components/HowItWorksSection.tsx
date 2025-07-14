@@ -19,7 +19,7 @@ const HowItWorksSection = () => {
     {
       icon: <Timer className="w-10 h-10 text-blue-600" />,
       title: "Read the Cassette",
-      description: "Place the sample into the test cassette and wait just 15-20 minutes for your results to appear.",
+      description: "Place the sample into the test cassette and wait just 15 minutes for your results to appear.",
       detail: "Color-coded bands indicate HPV presence and cancer progression markers"
     },
     {
@@ -35,7 +35,7 @@ const HowItWorksSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-display">
-            How the <span className="text-gradient">B-Cell Kit</span> Works
+            How the <span className="text-gradient">B-Cell Cervical Cancer (OncoCerv™) Kit</span> Works
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Four simple steps to take control of your cervical health
@@ -84,10 +84,10 @@ const HowItWorksSection = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <div className="bg-primary/10 px-4 py-2 rounded-full">
-                <span className="text-sm font-medium text-primary">E6 Oncoprotein Detection</span>
+                <span className="text-sm font-medium text-primary">Cancer Detection</span>
               </div>
               <div className="bg-teal-100 px-4 py-2 rounded-full">
-                <span className="text-sm font-medium text-teal-700">E7 Oncoprotein Detection</span>
+                <span className="text-sm font-medium text-teal-700">Broad Range HPV Screening</span>
               </div>
             </div>
           </div>

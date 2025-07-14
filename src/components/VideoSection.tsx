@@ -6,11 +6,11 @@ const VideoSection = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
 
   return (
-    <section className="py-20 bg-white">
+    <section id="video" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-display">
-            See How <span className="text-gradient">B-Cell</span> Works
+            See How <span className="text-gradient">OncoCerv™</span> Works
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Watch our detailed demonstration of the self-sampling process and understand the science behind our technology
@@ -20,25 +20,26 @@ const VideoSection = () => {
         <div className="relative">
           {/* Video thumbnail/placeholder */}
           <div 
-            className="relative bg-gradient-to-br from-primary/10 to-teal-50 rounded-2xl overflow-hidden cursor-pointer group"
+            className="relative rounded-2xl overflow-hidden cursor-pointer group bg-contain bg-center bg-no-repeat"
+            style={{ backgroundImage: 'url(/video2.jpg)' }}
             onClick={() => setIsVideoOpen(true)}
           >
-            <div className="aspect-video flex items-center justify-center">
+            <div className="aspect-video flex items-center justify-center bg-black/40">
               <div className="text-center">
                 <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg group-hover:shadow-xl transition-shadow">
                   <Play className="w-8 h-8 text-primary ml-1" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-2 font-display">
+                <h3 className="text-2xl font-bold text-white mb-2 font-display">
                   Complete Product Demo
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-white/90">
                   2-minute walkthrough of the entire testing process
                 </p>
               </div>
             </div>
             
             {/* Overlay gradient */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
           </div>
 
           {/* Additional video topics */}
@@ -79,21 +80,18 @@ const VideoSection = () => {
               >
                 <X className="w-8 h-8" />
               </button>
-              <div className="bg-white rounded-2xl p-8 text-center">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 font-display">
-                  Video Coming Soon
-                </h3>
-                <p className="text-gray-600 mb-6">
-                  We're currently producing high-quality educational videos to help you understand 
-                  our product better. These will be available soon!
-                </p>
-                <div className="aspect-video bg-gray-100 rounded-xl flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <Play className="w-8 h-8 text-gray-400" />
-                    </div>
-                    <p className="text-gray-400">Video placeholder</p>
-                  </div>
+              <div className="bg-black rounded-2xl overflow-hidden">
+                <div className="aspect-video">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/4zxlXqMrgrk?autoplay=1&rel=0"
+                    title="B-Cell Product Demo"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    className="rounded-2xl"
+                  ></iframe>
                 </div>
               </div>
             </div>
