@@ -28,10 +28,11 @@ const Navigation = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-2 mb-2">
         <div className="flex justify-between items-center h-18">
+          <a href="/"> 
           <div className="flex-shrink-0">
             <img src="/logo.png" alt="B-Cell Biologics" className="h-14" />
           </div>
-          
+          </a>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               {navItems.map((item) => (
